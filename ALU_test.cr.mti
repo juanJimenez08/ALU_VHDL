@@ -1,0 +1,91 @@
+C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/shift_r_op.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/shift_r_op.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity shift_r_op
+-- Compiling architecture Behavioral of shift_r_op
+
+} {} {}} C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/or_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/or_gate.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate
+-- Compiling architecture Behavioral of or_gate
+
+} {} {}} C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/Subtrator.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/Subtrator.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Subtrator
+-- Compiling architecture Behavioral of Subtrator
+
+} {} {}} C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/sub_1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/sub_1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity sub_1
+-- Compiling architecture Behavioral of sub_1
+
+} {} {}} C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/Porta_NOT.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/Porta_NOT.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Porta_NOT
+-- Compiling architecture Behavioral of Porta_NOT
+
+} {} {}} C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/ALU.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/ALU.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALU
+-- Compiling architecture Structural of ALU
+
+} {} {}} C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/shift_l_op.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/shift_l_op.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity shift_l_op
+-- Compiling architecture Behavioral of shift_l_op
+
+} {} {}} C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/and_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/and_gate.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity and_gate
+-- Compiling architecture Behavioral of and_gate
+
+} {} {}} C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/soma.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/soma.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity soma
+-- Compiling architecture main of soma
+
+} {} {}} C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/Incremento.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/Incremento.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Incremento
+-- Compiling architecture Behavioral of Incremento
+
+} {} {}}

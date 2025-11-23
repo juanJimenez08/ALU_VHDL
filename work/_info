@@ -1,0 +1,484 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Ealu
+Z0 w1763858125
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 65
+Z3 dC:/Users/juane/OneDrive/Documentos/QUARTUS/ALU
+Z4 8C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/ALU.vhd
+Z5 FC:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/ALU.vhd
+l0
+L4 1
+V>2V>9gJPgKXFhm78A^<f10
+!s100 lccD4SI:@ThO1MYQ8MBjL3
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1763906817
+!i10b 1
+Z8 !s108 1763906817.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/ALU.vhd|
+Z10 !s107 C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/ALU.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Astructural
+R1
+R2
+DEx4 work 3 alu 0 22 >2V>9gJPgKXFhm78A^<f10
+!i122 65
+l79
+L11 144
+V621T`n;E9Ya@FZHBYeW^80
+!s100 LBL6J4:Q@LLBlmiV92ifC1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ealu_tb_file
+Z13 w1763906924
+Z14 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R1
+R2
+!i122 77
+R3
+Z15 8C:\Users\juane\OneDrive\Documentos\QUARTUS\ALU\ALU_TB_FILE.vhd
+Z16 FC:\Users\juane\OneDrive\Documentos\QUARTUS\ALU\ALU_TB_FILE.vhd
+l0
+L6 1
+VHz:5h50:Nm_3Ho79BiF9@2
+!s100 b1Z[o5bZ>jNO0jbaacf`z0
+R6
+32
+Z17 !s110 1763906927
+!i10b 1
+Z18 !s108 1763906927.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\juane\OneDrive\Documentos\QUARTUS\ALU\ALU_TB_FILE.vhd|
+!s107 C:\Users\juane\OneDrive\Documentos\QUARTUS\ALU\ALU_TB_FILE.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R1
+R2
+Z20 DEx4 work 11 alu_tb_file 0 22 Hz:5h50:Nm_3Ho79BiF9@2
+!i122 77
+l30
+Z21 L9 76
+V_Pnc1A22DLRcDLOC>X8W[3
+!s100 0EeWV5_KeEfAPN3EPBbij1
+R6
+32
+R17
+!i10b 1
+R18
+R19
+Z22 !s107 C:\Users\juane\OneDrive\Documentos\QUARTUS\ALU\ALU_TB_FILE.vhd|
+!i113 1
+R11
+R12
+Eand_gate
+Z23 w1763858157
+Z24 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+!i122 66
+R3
+Z25 8C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/and_gate.vhd
+Z26 FC:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/and_gate.vhd
+l0
+L5 1
+VnnLH?oH`mXIGfA44eoDK82
+!s100 O;2GTNaR3QjXN]C=@99WX3
+R6
+32
+R7
+!i10b 1
+R8
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/and_gate.vhd|
+Z28 !s107 C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/and_gate.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R24
+R1
+R2
+DEx4 work 8 and_gate 0 22 nnLH?oH`mXIGfA44eoDK82
+!i122 66
+l13
+L12 6
+Vaah6BThNGkV?mP^ml6GF;2
+!s100 n0BT6=eNcNVD<Kk8CQRXC1
+R6
+32
+R7
+!i10b 1
+R8
+R27
+R28
+!i113 1
+R11
+R12
+Eincremento
+Z29 w1763858409
+Z30 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z31 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+!i122 67
+R3
+Z32 8C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/Incremento.vhd
+Z33 FC:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/Incremento.vhd
+l0
+L5 1
+V<lh7U5na4i`2T@I85cGV40
+!s100 0i:::`DVNQTDfSVWFE7720
+R6
+32
+R7
+!i10b 1
+R8
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/Incremento.vhd|
+Z35 !s107 C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/Incremento.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R30
+R31
+R1
+R2
+DEx4 work 10 incremento 0 22 <lh7U5na4i`2T@I85cGV40
+!i122 67
+l11
+L10 5
+VFe5aS]=ZDjbhHNW48V8oT1
+!s100 3RnEMA4DR:HVg_VS>BkXd3
+R6
+32
+R7
+!i10b 1
+R8
+R34
+R35
+!i113 1
+R11
+R12
+Eor_gate
+Z36 w1763853636
+R1
+R2
+!i122 68
+R3
+Z37 8C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/or_gate.vhd
+Z38 FC:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/or_gate.vhd
+l0
+L8 1
+V@OOUl5aGNH6DBWne6HWlI0
+!s100 lJ?8KkCMNOf[Ac32]cHNM0
+R6
+32
+R7
+!i10b 1
+R8
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/or_gate.vhd|
+Z40 !s107 C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/or_gate.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 7 or_gate 0 22 @OOUl5aGNH6DBWne6HWlI0
+!i122 68
+l17
+L16 4
+VFjnomS^4OQ^[h5__ET:i31
+!s100 IJB;VoXiXIUdK:BGThzFj2
+R6
+32
+R7
+!i10b 1
+R8
+R39
+R40
+!i113 1
+R11
+R12
+Eporta_not
+Z41 w1763858448
+R1
+R2
+!i122 69
+R3
+Z42 8C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/Porta_NOT.vhd
+Z43 FC:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/Porta_NOT.vhd
+l0
+L4 1
+VfT6ac]ioNz4Wzc6]DjKh^2
+!s100 4b<:UHjndcRXEE;1`OTzQ3
+R6
+32
+R7
+!i10b 1
+R8
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/Porta_NOT.vhd|
+Z45 !s107 C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/Porta_NOT.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 9 porta_not 0 22 fT6ac]ioNz4Wzc6]DjKh^2
+!i122 69
+l11
+L10 4
+VmIjihfL?ZBoT1Tj=Y^Dc<2
+!s100 `e19[fDY4?aamN0W1QU^g1
+R6
+32
+R7
+!i10b 1
+R8
+R44
+R45
+!i113 1
+R11
+R12
+Eshift_l_op
+Z46 w1763858250
+R24
+R1
+R2
+!i122 70
+R3
+Z47 8C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/shift_l_op.vhd
+Z48 FC:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/shift_l_op.vhd
+l0
+L5 1
+V30_C1@fah`dc<<a:G<1Ng2
+!s100 ?lL[L>YZfe2A4lmIo]QbX2
+R6
+32
+R7
+!i10b 1
+R8
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/shift_l_op.vhd|
+Z50 !s107 C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/shift_l_op.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R24
+R1
+R2
+DEx4 work 10 shift_l_op 0 22 30_C1@fah`dc<<a:G<1Ng2
+!i122 70
+l13
+L12 7
+Vk>n[S[<lE<iIJdRa5TJVf1
+!s100 ih_JQ`HZCWQBPaz;nEn_b3
+R6
+32
+R7
+!i10b 1
+R8
+R49
+R50
+!i113 1
+R11
+R12
+Eshift_r_op
+Z51 w1763853975
+R24
+R1
+R2
+!i122 71
+R3
+Z52 8C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/shift_r_op.vhd
+Z53 FC:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/shift_r_op.vhd
+l0
+L11 1
+V1;WG6n]Q:0_Kolj1>c[VA1
+!s100 4ZcWYO3lY;4MW:lheBd8W1
+R6
+32
+R7
+!i10b 1
+R8
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/shift_r_op.vhd|
+Z55 !s107 C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/shift_r_op.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R24
+R1
+R2
+DEx4 work 10 shift_r_op 0 22 1;WG6n]Q:0_Kolj1>c[VA1
+!i122 71
+l19
+L18 5
+V8l`V0Ojn63dEFdNJ3MDm^3
+!s100 b_Uk?XbT0ZK@Z6lnJ[A]b1
+R6
+32
+R7
+!i10b 1
+R8
+R54
+R55
+!i113 1
+R11
+R12
+Esoma
+Z56 w1763852479
+R24
+R1
+R2
+!i122 72
+R3
+Z57 8C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/soma.vhd
+Z58 FC:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/soma.vhd
+l0
+L9 1
+VcUOhPZklCnz2i5HknM?@20
+!s100 Fg3[a::;cIj?oBD_LVS7G1
+R6
+32
+Z59 !s110 1763906818
+!i10b 1
+Z60 !s108 1763906818.000000
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/soma.vhd|
+Z62 !s107 C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/soma.vhd|
+!i113 1
+R11
+R12
+Amain
+R24
+R1
+R2
+DEx4 work 4 soma 0 22 cUOhPZklCnz2i5HknM?@20
+!i122 72
+l17
+L16 7
+VU3KY0ZeFV]C`o10WS2TDj3
+!s100 SS:WiBRNb^0eESdTFIojW3
+R6
+32
+R59
+!i10b 1
+R60
+R61
+R62
+!i113 1
+R11
+R12
+Esub_1
+Z63 w1763858354
+R30
+R31
+R1
+R2
+!i122 73
+R3
+Z64 8C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/sub_1.vhd
+Z65 FC:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/sub_1.vhd
+l0
+L5 1
+V?Bnnm[BHB292bfP8RlY=]3
+!s100 >ULGBEV;ZVFQNzf:hjgS@3
+R6
+32
+R59
+!i10b 1
+R60
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/sub_1.vhd|
+Z67 !s107 C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/sub_1.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R30
+R31
+R1
+R2
+DEx4 work 5 sub_1 0 22 ?Bnnm[BHB292bfP8RlY=]3
+!i122 73
+l14
+L13 4
+VjI;o?o_Zg70j;34G]oQRG3
+!s100 l0fjWUkfiZHV0^kZ2jeOG1
+R6
+32
+R59
+!i10b 1
+R60
+R66
+R67
+!i113 1
+R11
+R12
+Esubtrator
+Z68 w1763858429
+R30
+R31
+R1
+R2
+!i122 74
+R3
+Z69 8C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/Subtrator.vhd
+Z70 FC:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/Subtrator.vhd
+l0
+L5 1
+VMi>PP3FG?64T2IA:ThloY1
+!s100 J_A_o0^a>z``>oM]d==b20
+R6
+32
+R59
+!i10b 1
+R60
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/Subtrator.vhd|
+Z72 !s107 C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/Subtrator.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R30
+R31
+R1
+R2
+DEx4 work 9 subtrator 0 22 Mi>PP3FG?64T2IA:ThloY1
+!i122 74
+l12
+L11 4
+VRoZ_VG5haV>Ah>8]UK<K52
+!s100 27FO>@558GHCkNP_Va8XO0
+R6
+32
+R59
+!i10b 1
+R60
+R71
+R72
+!i113 1
+R11
+R12

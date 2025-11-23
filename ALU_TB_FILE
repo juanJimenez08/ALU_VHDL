@@ -1,0 +1,78 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_TEXTIO.ALL; -- Biblioteca Mágica para ler bits
+use STD.TEXTIO.ALL;            -- Biblioteca padrão de leitura de texto
+
+entity ALU_TB_FILE is
+    -- Testbench não tem portas
+end ALU_TB_FILE;
+
+architecture Behavioral of ALU_TB_FILE is
+
+    -- 1. DECLARAÇÃO DO COMPONENTE ALU
+    -- Tem que ser igualzinho ao seu arquivo ALU.vhd
+    component ALU
+        Port ( A : in  STD_LOGIC_VECTOR (3 downto 0);
+               B : in  STD_LOGIC_VECTOR (3 downto 0);
+               Sel : in STD_LOGIC_VECTOR (2 downto 0); -- Seletor de 3 bits
+               Resultado : out STD_LOGIC_VECTOR (3 downto 0));
+    end component;
+
+    -- 2. SINAIS PARA LIGAR NA ALU
+    signal A_tb : STD_LOGIC_VECTOR (3 downto 0) := "0000";
+    signal B_tb : STD_LOGIC_VECTOR (3 downto 0) := "0000";
+    signal Sel_tb : STD_LOGIC_VECTOR (2 downto 0) := "000";
+    signal Res_tb : STD_LOGIC_VECTOR (3 downto 0);
+
+    -- 3. DEFINIÇÃO DO ARQUIVO DE TEXTO
+    -- Como está tudo na mesma pasta, basta colocar o nome
+    file arquivo_entradas : text open read_mode is "entradas.txt";
+
+begin
+
+    -- 4. INSTANCIAÇÃO (LIGANDO OS FIOS)
+    UUT: ALU port map (
+        A => A_tb, 
+        B => B_tb, 
+        Sel => Sel_tb, 
+        Resultado => Res_tb
+    );
+
+    -- 5. PROCESSO DE LEITURA
+    process
+        variable linha_atual : line;
+        variable var_A : STD_LOGIC_VECTOR(3 downto 0);
+        variable var_B : STD_LOGIC_VECTOR(3 downto 0);
+        variable var_Sel : STD_LOGIC_VECTOR(2 downto 0);
+        variable espaco : character; -- Para "pular" o espaço em branco do texto
+    begin
+        
+        -- Loop que roda até acabar as linhas do arquivo de texto
+        while not endfile(arquivo_entradas) loop
+            
+            -- Lê a linha inteira do arquivo
+            readline(arquivo_entradas, linha_atual);
+            
+            -- Lê as variáveis na ordem: A, espaço, B, espaço, Sel
+            read(linha_atual, var_A);
+            read(linha_atual, espaco); 
+            read(linha_atual, var_B);
+            read(linha_atual, espaco); 
+            read(linha_atual, var_Sel);
+
+            -- Joga para os fios da simulação
+            A_tb <= var_A;
+            B_tb <= var_B;
+            Sel_tb <= var_Sel;
+
+            -- Espera 100ns para podermos ver o resultado na onda
+            wait for 100 ns;
+
+        end loop;
+
+        -- Encerra a simulação
+        assert false report "Fim da Simulação (Acabou o arquivo txt)" severity failure;
+        wait; 
+    end process;
+
+end Behavioral;
