@@ -1,0 +1,17 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity and_gate is
+  port(
+    A, B : in std_logic_vector(3 downto 0);
+    Z : out std_logic_vector(3 downto 0)
+);
+end entity and_gate;
+
+architecture Behavioral of and_gate is
+begin
+  
+  Z <= a and b;
+
+end architecture Behavioral;
