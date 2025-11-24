@@ -22,7 +22,7 @@ architecture Behavioral of ALU_TB_FILE is
     signal Res_tb : STD_LOGIC_VECTOR (3 downto 0);
 
     -- 1. ARQUIVO DE ENTRADA (Leitura)
-    file arquivo_entradas : text open read_mode is "entradas.txt";
+    file arquivo_entradas : text open read_mode is "C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/entradas.txt";
     
     -- 2. ARQUIVO DE SAÍDA (Escrita - Vai ser criado sozinho)
     file arquivo_saidas : text open write_mode is "saidas.txt";
@@ -57,18 +57,16 @@ begin
             B_tb <= var_B;
             Sel_tb <= var_Sel;
 
-            -- --- PASSO B: ESPERAR O CÁLCULO ---
+            -- --- PASSO B: ESPERAR O CALCULO ---
             wait for 100 ns; 
 
             -- --- PASSO C: SALVAR O RESULTADO ---
             
-            -- Opcional: Escrever "Resultado = " antes do numero (para ficar bonito)
-            -- write(linha_escrita, string'("Resultado: ")); 
             
             -- Escreve os bits do resultado na linha virtual
             write(linha_escrita, Res_tb);
             
-            -- "Carimba" a linha no arquivo de texto físico
+            -- "Carimba" a linha no arquivo de texto fisico
             writeline(arquivo_saidas, linha_escrita);
 
         end loop;
@@ -77,8 +75,8 @@ begin
         file_close(arquivo_entradas);
         file_close(arquivo_saidas);
 
-        assert false report "Simulação Concluída! Verifique o arquivo saidas.txt" severity failure;
-        wait; 
+       assert false report "Simulacao Concluida! Verifique o arquivo saidas.txt" severity failure;
+       wait; 
     end process;
 
 end Behavioral;
