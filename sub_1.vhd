@@ -1,16 +1,22 @@
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.STD_LOGIC_UNSIGNED.ALL;
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
 
 entity sub_1 is
-  port(
-    A : in std_logic_vector(3 downto 0);
-    Z : out std_logic_vector(3 downto 0)
-);
-
-end entity sub_1;
+    Port ( A : in  STD_LOGIC_VECTOR (3 downto 0);
+           Z : out STD_LOGIC_VECTOR (3 downto 0);
+           C : out STD_LOGIC; 
+           O : out STD_LOGIC); 
+end sub_1;
 
 architecture Behavioral of sub_1 is
+    signal temp : unsigned(4 downto 0);
 begin
-  Z<= a-1;
-end architecture Behavioral;
+    
+
+    temp <= resize(unsigned(A), 5) - 1;
+    Z <= std_logic_vector(temp(3 downto 0));
+    C <= std_logic(temp(4));
+    O <= '1' when A = "1000" else '0';
+
+end Behavioral;

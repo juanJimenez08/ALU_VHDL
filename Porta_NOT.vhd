@@ -3,7 +3,6 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity Porta_NOT is
     Port ( A : in  STD_LOGIC_VECTOR (3 downto 0);
-           -- Não precisamos do B aqui
            Z : out STD_LOGIC_VECTOR (3 downto 0));
 end Porta_NOT;
 

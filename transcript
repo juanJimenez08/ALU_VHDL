@@ -1,6 +1,6 @@
 vsim -gui work.alu_tb_file
 # vsim -gui work.alu_tb_file 
-# Start time: 10:26:40 on Nov 24,2025
+# Start time: 17:56:38 on Nov 25,2025
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -8,9 +8,7 @@ vsim -gui work.alu_tb_file
 # Loading work.alu_tb_file(behavioral)
 # Loading work.alu(structural)
 # Loading ieee.numeric_std(body)
-# Loading work.soma(main)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
+# Loading work.soma(behavioral)
 # Loading work.subtrator(behavioral)
 # Loading work.and_gate(behavioral)
 # Loading work.or_gate(behavioral)
@@ -19,9 +17,14 @@ vsim -gui work.alu_tb_file
 # Loading work.shift_r_op(behavioral)
 # Loading work.incremento(behavioral)
 # Loading work.sub_1(behavioral)
-add wave -position insertpoint sim:/alu_tb_file/UUT/*
+add wave -position insertpoint sim:/alu_tb_file/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: juane  Hostname: JUANJIMENEZ  ProcessID: 24548
+#           Attempting to use alternate WLF file "./wlftkgy531".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftkgy531
 run
-# ** Failure: Simulacao Concluida! Verifique o arquivo saidas.txt
-#    Time: 400 ns  Iteration: 0  Process: /alu_tb_file/line__36 File: C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/ALU_TB_FILE.vhd
-# Break in Process line__36 at C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/ALU_TB_FILE.vhd line 78
+# ** Failure: Simulacao Concluida! Verifique saidas.txt
+#    Time: 700 ns  Iteration: 0  Process: /alu_tb_file/line__36 File: C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/ALU_TB_FILE.vhd
+# Break in Process line__36 at C:/Users/juane/OneDrive/Documentos/QUARTUS/ALU/ALU_TB_FILE.vhd line 91
 # WARNING: No extended dataflow license exists
